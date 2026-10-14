@@ -2,10 +2,10 @@
 
 The repo is a 3x3 gif grid rendered in README.md.
 
-- Cell size: 200x200 px, animated GIF.
+- Cell size: 240x240 px, animated GIF.
 - File naming: `<subject>_column#<column>#<row>.gif` — subject in lowercase snake_case; first index is the column (vertical stack), second is the position down that column. The original column is `linus_torvalds`, `al_pachino`, `marilyn_monroe` stacked top to bottom.
-- Wide sources are center-cropped to square, then resized to 200x200 (no aspect distortion).
-- File names contain `#`, so image URLs in README.md must be percent-encoded (`%23`).
+- Wide sources are center-cropped to square, then resized to 240x240 (no aspect distortion).
+- File names contain `#`, so image URLs in README.md must be percent-encoded (`%23`). README renders the grid as borderless inline `<img>` tags (no table, no gaps).
 
 ## Current grid
 
